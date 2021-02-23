@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Lab73</string>
+    <string name="launch_started_service">Launch Started Service</string>
+    <string name="launch_bound_service">Launch Bound Service</string>
+</resources>

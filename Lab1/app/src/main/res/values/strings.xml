@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Lab22</string>
+    <string name="text">Text text2 text</string>
+    <string name="item_name">Enter item name…</string>
+    <string name="add_item">Add Item</string>
+    <string name="exposed">Keyboard is exposed</string>
+    <string name="hidden">Keyboard is hidden</string>
+    <string name="soft">Software keyboard is available</string>
+    <string name="default_text">Default keyboard view</string>
+</resources>

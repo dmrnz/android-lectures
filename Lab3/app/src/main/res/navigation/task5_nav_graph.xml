@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/task5_nav_graph"
+    app:startDestination="@id/destination_fragment1">
+
+    <fragment
+        android:id="@+id/destination_fragment1"
+        android:name="com.example.lab3.task5.Fragment1"
+        android:label="Fragment 1" >
+        <action
+            android:id="@+id/first_to_second"
+            app:destination="@id/destination_fragment2" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/destination_fragment2"
+        android:name="com.example.lab3.task5.Fragment2"
+        android:label="Fragment 2" >
+        <action
+            android:id="@+id/second_to_first"
+            app:destination="@id/destination_fragment1" />
+        <action
+            android:id="@+id/second_to_third"
+            app:destination="@id/destination_fragment3" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/destination_fragment3"
+        android:name="com.example.lab3.task5.Fragment3"
+        android:label="Fragment 3" >
+        <action
+            android:id="@+id/third_to_first"
+            app:destination="@id/destination_fragment1" />
+        <action
+            android:id="@+id/third_to_second"
+            app:destination="@id/destination_fragment2" />
+    </fragment>
+
+</navigation>

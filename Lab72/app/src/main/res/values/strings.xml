@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Lab72</string>
+    <string name="name">Image path:</string>
+    <string name="path">%1$s</string>
+</resources>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <CheckBox
+            android:id="@+id/constraint_3_CheckBox"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintHeight_percent="0.2"
+            app:layout_constraintRight_toLeftOf="@id/constraint_3_EditText"
+            app:layout_constraintTop_toTopOf="@id/constraint_3_EditText"
+            app:layout_constraintWidth_percent="0.4" />
+
+        <TextView
+            android:id="@+id/constraint_3_TextView"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toTopOf="@id/constraint_3_ImageView"
+            app:layout_constraintHeight_percent="0.2"
+            app:layout_constraintRight_toLeftOf="@id/constraint_3_ImageView"
+            app:layout_constraintWidth_percent="0.4" />
+
+        <ImageView
+            android:id="@+id/constraint_3_ImageView"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toTopOf="@id/constraint_3_EditText"
+            app:layout_constraintHeight_percent="0.2"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintWidth_percent="0.4" />
+
+        <EditText
+            android:id="@+id/constraint_3_EditText"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHeight_percent="0.4"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintWidth_percent="0.2" />
+
+        <Button
+            android:id="@+id/constraint_3_Button"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintHeight_percent="0.4"
+            app:layout_constraintRight_toRightOf="@id/constraint_3_View"
+            app:layout_constraintTop_toBottomOf="@id/constraint_3_View"
+            app:layout_constraintWidth_percent="0.2" />
+
+        <View
+            android:id="@+id/constraint_3_View"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintHeight_percent="0.4"
+            app:layout_constraintRight_toLeftOf="@id/constraint_3_TextView"
+            app:layout_constraintTop_toTopOf="@id/constraint_3_TextView"
+            app:layout_constraintWidth_percent="0.2" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
