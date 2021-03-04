@@ -4,7 +4,7 @@
     <string name="item_name">Enter item name…</string>
     <string name="add_item">Add Item</string>
     <string name="exposed">Keyboard is exposed</string>
-    <string name="hidden">Keyboard is hidden</string>
+    <string name="hidden">Please connect or open your keyboard to use the app</string>
     <string name="soft">Software keyboard is available</string>
     <string name="default_text">Default keyboard view</string>
 </resources>
